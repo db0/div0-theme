@@ -7,8 +7,7 @@
 
 body
 {
-	background-color: var(--secondary) !important;
-	background-image: none !important;
+	background-image: url(https://raw.githubusercontent.com/db0/div0-theme/main/background.webp); background-attachment:fixed; background-size: cover; background-position: center;}
 }
 
 /* container for posts in the feed */
