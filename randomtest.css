@@ -27,11 +27,11 @@ body
 
 :root
 {
-	--blue: #88C0D0;
+	--blue: #a7c5d4;
 	--indigo: #5E81AC;
-	--purple: #B48EAD;
-	--pink: #B48EAD;
-	--red: #BF616A;
+	--purple: #AE6B9B;
+	--pink: #AE6B9B;
+	--red: #9F272C;
 	--orange: #D08770;
 	--yellow: #EBCB8B;
 	--green: #A3BE8C;
@@ -40,12 +40,12 @@ body
 	--white: #ECEFF4;
 	--gray: #4C566A;
 	--gray-dark: #2E3440;
-	--primary: #88C0D0;
+	--primary: #a7c5d4;
 	--secondary: #4C566A;
 	--success: #A3BE8C;
 	--info: #81A1C1;
 	--warning: #EBCB8B;
-	--danger: #BF616A;
+	--danger: #9F272C;
 	--light: #3B4252;
 	--dark: #8c94a4;
 	--breakpoint-xs: 0;
@@ -778,7 +778,7 @@ mark
 {
 	padding: 0.25rem;
 	background-color: #2e3440;
-	border: 1px solid #d8dee9;
+	border: 1px solid #F9BA45;
 	border-radius: 0.25rem;
 	box-shadow: 0 1px 2px rgba(46, 52, 64, .075);
 	max-width: 100%;
@@ -2629,20 +2629,20 @@ pre code
 {
 	padding: 0.75rem;
 	vertical-align: top;
-	border-top: 1px solid #d8dee9;
+	border-top: 1px solid #F9BA45;
 
 }
 
 .table thead th
 {
 	vertical-align: bottom;
-	border-bottom: 2px solid #d8dee9;
+	border-bottom: 2px solid #F9BA45;
 
 }
 
 .table tbody+tbody
 {
-	border-top: 2px solid #d8dee9;
+	border-top: 2px solid #F9BA45;
 
 }
 
@@ -2655,14 +2655,14 @@ pre code
 
 .table-bordered
 {
-	border: 1px solid #d8dee9;
+	border: 1px solid #F9BA45;
 
 }
 
 .table-bordered td,
 .table-bordered th
 {
-	border: 1px solid #d8dee9;
+	border: 1px solid #F9BA45;
 
 }
 
@@ -2968,7 +2968,7 @@ pre code
 {
 	color: #3b4252;
 	background-color: #e5e9f0;
-	border-color: #d8dee9;
+	border-color: #F9BA45;
 
 }
 
@@ -5914,7 +5914,7 @@ input[type=submit].btn-block
 	height: 0.5rem;
 	color: transparent;
 	cursor: pointer;
-	background-color: #d8dee9;
+	background-color: #F9BA45;
 	border-color: transparent;
 	border-radius: 1rem;
 	box-shadow: inset 0 0.25rem 0.25rem rgba(46, 52, 64, .1);
@@ -5946,7 +5946,7 @@ input[type=submit].btn-block
 	height: 0.5rem;
 	color: transparent;
 	cursor: pointer;
-	background-color: #d8dee9;
+	background-color: #F9BA45;
 	border-color: transparent;
 	border-radius: 1rem;
 	box-shadow: inset 0 0.25rem 0.25rem rgba(46, 52, 64, .1);
@@ -5990,7 +5990,7 @@ input[type=submit].btn-block
 
 .custom-range::-ms-fill-lower
 {
-	background-color: #d8dee9;
+	background-color: #F9BA45;
 	border-radius: 1rem;
 
 }
@@ -5998,14 +5998,14 @@ input[type=submit].btn-block
 .custom-range::-ms-fill-upper
 {
 	margin-right: 15px;
-	background-color: #d8dee9;
+	background-color: #F9BA45;
 	border-radius: 1rem;
 
 }
 
 .custom-range:disabled::-webkit-slider-thumb
 {
-	background-color: #d8dee9;
+	background-color: #F9BA45;
 
 }
 
@@ -6017,7 +6017,7 @@ input[type=submit].btn-block
 
 .custom-range:disabled::-moz-range-thumb
 {
-	background-color: #d8dee9;
+	background-color: #F9BA45;
 
 }
 
@@ -6029,7 +6029,7 @@ input[type=submit].btn-block
 
 .custom-range:disabled::-ms-thumb
 {
-	background-color: #d8dee9;
+	background-color: #F9BA45;
 
 }
 
@@ -6075,7 +6075,7 @@ input[type=submit].btn-block
 
 .nav-tabs
 {
-	border-bottom: 1px solid #d8dee9;
+	border-bottom: 1px solid #F9BA45;
 
 }
 
@@ -6096,7 +6096,7 @@ input[type=submit].btn-block
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover
 {
-	border-color: #e5e9f0 #e5e9f0 #d8dee9;
+	border-color: #e5e9f0 #e5e9f0 #F9BA45;
 
 }
 
@@ -6113,7 +6113,7 @@ input[type=submit].btn-block
 {
 	color: #2e3440;
 	background-color: #88c0d0;
-	border-color: #d8dee9 #d8dee9 #88c0d0;
+	border-color: #F9BA45 #F9BA45 #88c0d0;
 
 }
 
@@ -7123,7 +7123,7 @@ input[type=submit].btn-block
 {
 	display: inline-block;
 	padding-right: 0.5rem;
-	color: #d8dee9;
+	color: #F9BA45;
 	content: "/";
 
 }
@@ -7798,7 +7798,7 @@ a.badge-dark:focus
 .list-group-item-action
 {
 	width: 100%;
-	color: #d8dee9;
+	color: #F9BA45;
 	text-align: inherit;
 
 }
@@ -7807,7 +7807,7 @@ a.badge-dark:focus
 .list-group-item-action:hover
 {
 	z-index: 1;
-	color: #d8dee9;
+	color: #F9BA45;
 	text-decoration: none;
 	background-color: #3b4252;
 
@@ -7847,7 +7847,7 @@ a.badge-dark:focus
 .list-group-item.disabled,
 .list-group-item:disabled
 {
-	color: #d8dee9;
+	color: #F9BA45;
 	pointer-events: none;
 	background-color: #3b4252;
 
@@ -9571,31 +9571,31 @@ button.bg-dark:hover
 
 .border
 {
-	border: 1px solid #d8dee9 !important;
+	border: 1px solid #F9BA45 !important;
 
 }
 
 .border-top
 {
-	border-top: 1px solid #d8dee9 !important;
+	border-top: 1px solid #F9BA45 !important;
 
 }
 
 .border-right
 {
-	border-right: 1px solid #d8dee9 !important;
+	border-right: 1px solid #F9BA45 !important;
 
 }
 
 .border-bottom
 {
-	border-bottom: 1px solid #d8dee9 !important;
+	border-bottom: 1px solid #F9BA45 !important;
 
 }
 
 .border-left
 {
-	border-left: 1px solid #d8dee9 !important;
+	border-left: 1px solid #F9BA45 !important;
 
 }
 
@@ -15025,7 +15025,7 @@ a.text-dark:hover
 	blockquote,
 	pre
 	{
-		border: 1px solid #d8dee9;
+		border: 1px solid #F9BA45;
 		page-break-inside: avoid;
 
 	}
@@ -15105,7 +15105,7 @@ a.text-dark:hover
 	.table-bordered td,
 	.table-bordered th
 	{
-		border: 1px solid #d8dee9 !important;
+		border: 1px solid #F9BA45 !important;
 
 	}
 
@@ -15120,14 +15120,14 @@ a.text-dark:hover
 	.table-dark th,
 	.table-dark thead th
 	{
-		border-color: #d8dee9;
+		border-color: #F9BA45;
 
 	}
 
 	.table .thead-dark th
 	{
 		color: inherit;
-		border-color: #d8dee9;
+		border-color: #F9BA45;
 
 	}
 
