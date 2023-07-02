@@ -18,7 +18,7 @@
   word-wrap: break-word;
   background-color: var(--custom-main-bg-color);
   background-clip: border-box;
-  border-style: 3px solid !important;
+  border: 3px solid !important;
   border-radius: 1rem;
   border-color: #F15B2D
 }
@@ -73,7 +73,7 @@ body {
 
 nav {
   background-color: var(--custom-main-bg-color);
-  border-style: 2px solid;
+  border: 2px solid;
   border-color: #F15B2D;
 }
 
