@@ -128,7 +128,7 @@ blockquote {
 }
 
 .choices__inner.bg-secondary, .choices__list .choices__item.bg-secondary {
-  background: transparent !important;
+  background-color: var(--custom-main-bg-color);
 }
 
 aside .btn-secondary {
