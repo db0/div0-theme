@@ -159,6 +159,7 @@ ul.comments.border-top {
 #community_table {
   display: table;
   border-color: var(--custom-secondary);
+  border-radius: 1rem;
 }
 
 form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3) {
