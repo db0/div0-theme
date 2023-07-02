@@ -39,6 +39,7 @@
 
 .ml-2, .comments .comment.ml-1 {
   margin-left: 0.5rem !important;
+  background-color: var(--custom-main-bg-color);
 }
 
 .ms-3, ul.comments.border-top.ms-1 {
@@ -128,7 +129,7 @@ blockquote {
 }
 
 .choices__inner.bg-secondary, .choices__list .choices__item.bg-secondary {
-  background-color: var(--custom-main-bg-color);
+  background: transparent !important;
 }
 
 aside .btn-secondary {
