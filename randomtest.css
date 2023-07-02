@@ -1,7 +1,6 @@
 /* Modern UI Theme 1.3 */
 
-@import url("litely.css") (prefers-color-scheme: light);
-@import url("darkly.css") (prefers-color-scheme: dark);
+@import url("darkly.css");
 
 .card, .container-lg .row .col-12.col-lg-6.offset-lg-3.mb-4:first-child, .container-lg .row .post article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, .post .container-lg .row article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, #community_table, .search, main.col-12.col-md-8.col-lg-9.mb-3 > div:not([class]):last-child, div.col-12.col-md-8.mb-3 > div:not([class]):last-child, .post .post-listing:first-child, main[role=main],
 .community .post-listings,
@@ -180,74 +179,15 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
   padding-bottom: 0;
 }
 
-
-@media (prefers-color-scheme: light)
-{
 :root {
-  --custom-primary: #ce4500;
-  --custom-secondary: #007d34;
-  --custom-secondary-light: #00a243;
-  --custom-info: #0066d2;
-  --custom-tabs-color: rgb(73, 80, 87);
-  --custom-tabs-text-color: rgb(73, 80, 87);
-  --custom-bg-color: #f4f4f4;
-  --custom-main-bg-color: white;
-  --custom-comment-left-border: rgba(0, 0, 0, 0.09);
-  --blockquote-left-border: rgba(0, 0, 0, 0.3);
-}
-
-blockquote {
-  border-color: var(--blockquote-left-border);
-}
-
-.text-secondary {
-  color: var(--custom-secondary) !important;
-}
-
-.secondary, .badge-secondary, .btn-secondary, .text-bg-secondary {
-  background-color: var(--custom-secondary);
-  border-color: var(--custom-secondary);
-}
-
-.badge.text-bg-secondary {
-  background-color: var(--custom-secondary) !important;
-}
-
-.btn-secondary:not(:disabled):hover {
-  background-color: var(--custom-secondary-light);
-  border-color: var(--custom-secondary-light);
-}
-
-.btn-outline-secondary:not(:hover) {
-  color: var(--custom-secondary);
-  border-color: var(--custom-secondary);
-}
-.btn-outline-secondary:not(:disabled):hover {
-  background-color: var(--custom-secondary-light);
-  border-color: var(--custom-secondary-light);
-}
-
-.btn-group.btn-group-toggle .btn-outline-secondary.active {
-  color: white;
-}
-
-.text-info {
-  color: var(--custom-info) !important;
-}
-
-}
-
-@media (prefers-color-scheme: dark)
-{
-:root {
-  --custom-primary: #49ce9d;
+  --custom-primary: #c0a36e;
   --custom-primary-light: #4fdda9;
-  --custom-primary-dark: #38a57d;
+  --custom-primary-dark: #c0a36e;
   --custom-secondary-light: rgb(54, 54, 54);
   --custom-tabs-color: rgb(49, 49, 49);
   --custom-tabs-text-color: #dee2e6;
   --custom-bg-color: #222;
-  --custom-main-bg-color: #171717;
+  --custom-main-bg-color: #090618;
   --custom-comment-left-border: rgba(255, 255, 255, 0.1);
   --bs-warning-text-emphasis: #fff;
   --bs-warning-bg-subtle: #44423f;
@@ -286,6 +226,4 @@ a:not(.btn):not(:disabled):hover.text-primary {
 }
 .form-control:focus {
   background-color: var(--custom-main-bg-color);
-}
-
 }
