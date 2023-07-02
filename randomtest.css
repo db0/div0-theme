@@ -157,6 +157,7 @@ aside .btn-danger {
 div[id^=comment-], article[id^=comment-] {
   border-left-color: var(--custom-comment-left-border) !important;
   border-top-color: transparent !important;
+  background-color: var(--custom-main-bg-color);
 }
 
 ul.comments.border-top {
