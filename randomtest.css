@@ -18,7 +18,7 @@
   word-wrap: break-word;
   background-color: var(--custom-main-bg-color);
   background-clip: border-box;
-  border: 2px solid !important;
+  border: 2px solid;
   border-radius: 1rem;
   border-color: #F15B2D;
 }
