@@ -24,13 +24,13 @@
 }
 
 .btn-outline-secondary, .comment-form:not(.post-comment-container) .btn-secondary:nth-child(4), .comment-form .btn-secondary:nth-child(3), form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3), aside .btn-secondary {
-  border-color: var(--secondary);
+  border-color: border-color: #F15B2D;
 }
 .btn-outline-secondary:not(:hover), .comment-form:not(.post-comment-container) .btn-secondary:not(:hover):nth-child(4), .comment-form .btn-secondary:not(:hover):nth-child(3), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(2), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(3), aside .btn-secondary:not(:hover) {
-  color: var(--secondary);
+  color: border-color: #F15B2D;
 }
 .btn-outline-secondary:not(:disabled):hover, .comment-form:not(.post-comment-container) .btn-secondary:not(:disabled):hover:nth-child(4), .comment-form .btn-secondary:not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(3), aside .btn-secondary:not(:disabled):hover {
-  background-color: var(--secondary);
+  background-color: border-color: #F15B2D;
 }
 
 .mt-0, .post .post-listing:first-child {
