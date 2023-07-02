@@ -202,7 +202,7 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
 
 :root {
   --custom-primary: #9F272C;
-  --custom-primary-light: #9f6ec0;
+  --custom-primary-light: #536B8E;
   --custom-primary-dark: #9F272C;
   --custom-secondary-light: #a7c5d4;
   --custom-secondary: #444444; /* Border around switches, and community table */
