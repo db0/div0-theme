@@ -223,12 +223,12 @@ a:not(.btn):not(:disabled):hover.text-primary {
 
 .primary:not(:disabled), .badge-primary:not(:disabled), .btn-primary:not(:disabled), .text-bg-primary:not(:disabled) {
   background-color: var(--custom-primary-dark) !important;
-  border-color: var(--custom-primary-dark);
+  border-color: #F15B2D;
 }
 
 .form-control {
   background-color: var(--custom-main-bg-color);
-  border-color: #403e3e;
+  border-color: #F15B2D;
 }
 .form-control:focus {
   background-color: var(--custom-main-bg-color);
