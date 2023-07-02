@@ -20,7 +20,8 @@ jobs:
           chmod 600 ~/.ssh/private.key
           echo "${SSH_KNOWN_HOSTS}" > ~/.ssh/known_hosts
           ssh -i ~/.ssh/private.key fediseer@${WEBSERVER} 'cd div0-theme && git fetch && git reset origin/main --hard && git log -n 1'          
-          ssh -i ~/.ssh/private.key fediseer@${WEBSERVER} "cp div0-theme/randomtest.css ${EXTRA_THEMES_PATH}/"
+          ssh -i ~/.ssh/private.key fediseer@${WEBSERVER} "cp div0-theme/RandomLegend_catppuccin.css ${EXTRA_THEMES_PATH}/"
+          ssh -i ~/.ssh/private.key fediseer@${WEBSERVER} "cp div0-theme/RandomLegend_dbzer0.css ${EXTRA_THEMES_PATH}/"
           ssh -i ~/.ssh/private.key fediseer@${WEBSERVER} "cp div0-theme/background.webp ${EXTRA_THEMES_PATH}/"
         shell: bash
         env:
