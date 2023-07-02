@@ -192,7 +192,7 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
   --custom-primary-light: #9f6ec0;
   --custom-primary-dark: #9F272C;
   --custom-secondary-light: #a7c5d4;
-  --custom-secondary: #444444;
+  --custom-secondary: #55ff00;
   --custom-tabs-color: #F15B2D;
   --custom-tabs-text-color: #dee2e6;
   --custom-bg-color: #0F0E10;
