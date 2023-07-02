@@ -113,7 +113,7 @@ blockquote {
 }
 
 .btn-group.btn-group-toggle .btn-outline-secondary.active, .btn-group.btn-group-toggle .comment-form:not(.post-comment-container) .active.btn-secondary:nth-child(4), .comment-form:not(.post-comment-container) .btn-group.btn-group-toggle .active.btn-secondary:nth-child(4), .btn-group.btn-group-toggle .comment-form .active.btn-secondary:nth-child(3), .comment-form .btn-group.btn-group-toggle .active.btn-secondary:nth-child(3), .btn-group.btn-group-toggle form[id^=comment-form-] .active.btn-secondary:nth-child(2), form[id^=comment-form-] .btn-group.btn-group-toggle .active.btn-secondary:nth-child(2), .btn-group.btn-group-toggle form[id^=comment-form-] .active.btn-secondary:nth-child(3), form[id^=comment-form-] .btn-group.btn-group-toggle .active.btn-secondary:nth-child(3), .btn-group.btn-group-toggle aside .active.btn-secondary, aside .btn-group.btn-group-toggle .active.btn-secondary {
-  background-color: var(--primary-border-color;
+  background-color: var(--primary-border-color);
   border-color: var(--primary-border-color);
 }
 
