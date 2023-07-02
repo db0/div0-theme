@@ -13,14 +13,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Update overctrl.dbzer0.com
+      - name: Update lemmy.dbzer0.com themes
         run: |
           mkdir -p ~/.ssh/
           echo "${SSH_PRIVATE_KEY}" > ~/.ssh/private.key
           chmod 600 ~/.ssh/private.key
           echo "${SSH_KNOWN_HOSTS}" > ~/.ssh/known_hosts
           ssh -i ~/.ssh/private.key cduser@${WEBSERVER} 'cd div0-theme && git fetch && git reset origin/main --hard && git log -n 1'          
-          ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/RandomLegend_catppuccin.css ${EXTRA_THEMES_PATH}/"
           ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/RandomLegend_dbzer0.css ${EXTRA_THEMES_PATH}/"
           ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/background.webp ${EXTRA_THEMES_PATH}/"
         shell: bash
@@ -28,4 +27,4 @@ jobs:
           SSH_PRIVATE_KEY: ${{secrets.CD_SSH_PRIVKEY}}
           SSH_KNOWN_HOSTS: ${{secrets.CD_KNOWN_HOSTS}}
           WEBSERVER: ${{secrets.CD_WEBSERVER_IP}}
-          EXTRA_THEMES_PATH: "/lemmy/overctrl.dbzer0.com/volumes/lemmy-ui/extra_themes"
+          EXTRA_THEMES_PATH: "/lemmy/lemmy.dbzer0.com/volumes/lemmy-ui/extra_themes"
