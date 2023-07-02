@@ -166,20 +166,20 @@ form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .bt
   --secondary: var(--custom-secondary);
 }
 form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=comment-form-] .btn-secondary:nth-child(3):not(:hover) {
-  background-color: transparent !important;
+  background-color: var(--custom-main-bg-color);
 }
 
 .comment-form .btn-secondary:nth-child(3) {
   --secondary: var(--custom-secondary);
 }
 .comment-form .btn-secondary:nth-child(3):not(:hover) {
-  background-color: transparent !important;
+  background-color: var(--custom-main-bg-color);
 }
 .comment-form:not(.post-comment-container) .btn-secondary:nth-child(4) {
   --secondary: var(--custom-secondary);
 }
 .comment-form:not(.post-comment-container) .btn-secondary:nth-child(4):not(:hover) {
-  background-color: transparent !important;
+  background-color: var(--custom-main-bg-color);
 }
 
 .card-header {
@@ -193,7 +193,7 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
   --custom-primary-light: #9f6ec0;
   --custom-primary-dark: #9F272C;
   --custom-secondary-light: #a7c5d4;
-  --custom-secondary: #444444;
+  --custom-secondary: #444444; /* Border around switches, and community table */
   --custom-tabs-color: #F15B2D;
   --custom-tabs-text-color: #dee2e6;
   --custom-bg-color: #0F0E10;
