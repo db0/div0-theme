@@ -20,6 +20,7 @@
   background-clip: border-box;
   border: 3px solid transparent !important;
   border-radius: 1rem;
+  border-color: var(--custom-secondary)
 }
 
 .btn-outline-secondary, .comment-form:not(.post-comment-container) .btn-secondary:nth-child(4), .comment-form .btn-secondary:nth-child(3), form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3), aside .btn-secondary {
