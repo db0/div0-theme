@@ -184,6 +184,7 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
 
 .card-header {
   background-color: transparent;
+  border-color: var(--custom-tabs-color);
   border-bottom: none;
   padding-bottom: 0;
 }
