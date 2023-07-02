@@ -3,7 +3,7 @@ name: theme publish
 on:
   push:
     branches:
-      - main
+      - dev
       
 permissions:
   contents: write
@@ -27,5 +27,5 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{secrets.CD_SSH_PRIVKEY}}
           SSH_KNOWN_HOSTS: ${{secrets.CD_KNOWN_HOSTS}}
-          WEBSERVER: ${{secrets.CD_WEBSERVER_IP}}
+          WEBSERVER: ${{secrets.CD_WEBSERVER_DEV_IP}}
           EXTRA_THEMES_PATH: "/lemmy/overctrl.dbzer0.com/volumes/lemmy-ui/extra_themes"
