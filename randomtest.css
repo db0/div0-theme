@@ -187,7 +187,7 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
   --custom-tabs-color: rgb(49, 49, 49);
   --custom-tabs-text-color: #dee2e6;
   --custom-bg-color: #222;
-  --custom-main-bg-color: #090618;
+  --custom-main-bg-color: #4fdda9;
   --custom-comment-left-border: rgba(255, 255, 255, 0.1);
   --bs-warning-text-emphasis: #fff;
   --bs-warning-bg-subtle: #44423f;
