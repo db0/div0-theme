@@ -30,7 +30,7 @@
   color: border-color: var(--custom-secondary);;
 }
 .btn-outline-secondary:not(:disabled):hover, .comment-form:not(.post-comment-container) .btn-secondary:not(:disabled):hover:nth-child(4), .comment-form .btn-secondary:not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(3), aside .btn-secondary:not(:disabled):hover {
-  background-color: border-color: var(--custom-secondary);
+  background-color: border-color: var(--custom-tabs-color);
 }
 
 .mt-0, .post .post-listing:first-child {
@@ -105,7 +105,7 @@ blockquote {
 
 .btn-group.btn-group-toggle .btn-outline-secondary:not(.active), .btn-group.btn-group-toggle .comment-form:not(.post-comment-container) .btn-secondary:not(.active):nth-child(4), .comment-form:not(.post-comment-container) .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(4), .btn-group.btn-group-toggle .comment-form .btn-secondary:not(.active):nth-child(3), .comment-form .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(3), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):nth-child(2), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(2), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):nth-child(3), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(3), .btn-group.btn-group-toggle aside .btn-secondary:not(.active), aside .btn-group.btn-group-toggle .btn-secondary:not(.active) {
   color: var(--custom-tabs-text-color);
-  border-color: var(--custom-secondary);
+  border-color: var(--custom-tabs-color);
 }
 .btn-group.btn-group-toggle .btn-outline-secondary:not(.active):not(:disabled):hover, .btn-group.btn-group-toggle .comment-form:not(.post-comment-container) .btn-secondary:not(.active):not(:disabled):hover:nth-child(4), .comment-form:not(.post-comment-container) .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(4), .btn-group.btn-group-toggle .comment-form .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), .comment-form .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(2), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), .btn-group.btn-group-toggle aside .btn-secondary:not(.active):not(:disabled):hover, aside .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover {
   color: white;
@@ -114,7 +114,7 @@ blockquote {
 
 .btn-group.btn-group-toggle .btn-outline-secondary.active, .btn-group.btn-group-toggle .comment-form:not(.post-comment-container) .active.btn-secondary:nth-child(4), .comment-form:not(.post-comment-container) .btn-group.btn-group-toggle .active.btn-secondary:nth-child(4), .btn-group.btn-group-toggle .comment-form .active.btn-secondary:nth-child(3), .comment-form .btn-group.btn-group-toggle .active.btn-secondary:nth-child(3), .btn-group.btn-group-toggle form[id^=comment-form-] .active.btn-secondary:nth-child(2), form[id^=comment-form-] .btn-group.btn-group-toggle .active.btn-secondary:nth-child(2), .btn-group.btn-group-toggle form[id^=comment-form-] .active.btn-secondary:nth-child(3), form[id^=comment-form-] .btn-group.btn-group-toggle .active.btn-secondary:nth-child(3), .btn-group.btn-group-toggle aside .active.btn-secondary, aside .btn-group.btn-group-toggle .active.btn-secondary {
   background-color: var(--custom-tabs-color);
-  border-color: var(--custom-secondary);
+  border-color: var(--custom-tabs-color);
 }
 
 .post-listing {
