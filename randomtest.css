@@ -30,7 +30,7 @@
   color: border-color: var(--custom-secondary);;
 }
 .btn-outline-secondary:not(:disabled):hover, .comment-form:not(.post-comment-container) .btn-secondary:not(:disabled):hover:nth-child(4), .comment-form .btn-secondary:not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(3), aside .btn-secondary:not(:disabled):hover {
-  background-color: border-color: var(--custom-secondary);;
+  background-color: border-color: var(--custom-secondary);
 }
 
 .mt-0, .post .post-listing:first-child {
@@ -158,6 +158,7 @@ ul.comments.border-top {
 
 #community_table {
   display: table;
+  border-color: var(--custom-secondary);
 }
 
 form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3) {
@@ -225,12 +226,12 @@ a:not(.btn):not(:disabled):hover.text-primary {
 
 .primary:not(:disabled), .badge-primary:not(:disabled), .btn-primary:not(:disabled), .text-bg-primary:not(:disabled) {
   background-color: var(--custom-primary-dark) !important;
-  border-color: #F15B2D;
+  border-color: var(--custom-secondary);
 }
 
 .form-control {
   background-color: var(--custom-main-bg-color);
-  border-color: #F15B2D;
+  border-color: var(--custom-secondary);
 }
 .form-control:focus {
   background-color: var(--custom-main-bg-color);
