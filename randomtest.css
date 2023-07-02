@@ -181,7 +181,7 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
 
 :root {
   --custom-primary: #c0a36e;
-  --custom-primary-light: #c0a36e;
+  --custom-primary-light: #9f6ec0;
   --custom-primary-dark: #c0a36e;
   --custom-secondary-light: rgb(54, 54, 54);
   --custom-tabs-color: rgb(49, 49, 49);
