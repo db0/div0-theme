@@ -36,45 +36,45 @@
 
 .mt-0, .post .post-listing:first-child {
   background-color: var(--custom-main-bg-color);
-  margin-top: 0 ;
+  margin-top: 0 !important;
 }
 
 .ml-2, .comments .comment.ml-1 {
-  margin-left: 0.5rem;
+  margin-left: 0.5rem !important;
   background-color: var(--custom-main-bg-color);
 }
 
 .ms-3, ul.comments.border-top.ms-1 {
   background-color: var(--custom-main-bg-color);
-  margin-left: 1rem;
+  margin-left: 1rem !important;
 }
 
 .my-2, .comments .comment.ml-1 div[id^=comment-] {
   background-color: var(--custom-main-bg-color);
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .mb-4, .post article[id^=comment-].py-2 {
   background-color: var(--custom-main-bg-color);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem !important;
 }
 
 .py-0, .post article[id^=comment-].py-2, .comments .comment.ml-1 div[id^=comment-] {
   background-color: var(--custom-main-bg-color);
-  padding-top: 0 ;
-  padding-bottom: 0 ;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .p-2, .container-lg .row .col-12.col-lg-6.offset-lg-3.mb-4:first-child, .container-lg .row .post article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, .post .container-lg .row article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, main.col-12.col-md-8.col-lg-9.mb-3 > div:not([class]):last-child, div.col-12.col-md-8.mb-3 > div:not([class]):last-child {
-  padding: 0.5rem;
+  padding: 0.5rem !important;
   background-color: var(--custom-main-bg-color);
   border-style: 1px solid;
   border-color: transparent;
 }
 
 .pt-2, .modlog, .home-instances {
-  padding-top: 0.5rem;
+  padding-top: 0.5rem !important;
   background-color: var(--custom-main-bg-color);
 }
 
@@ -107,11 +107,11 @@ blockquote {
 }
 
 .text-primary {
-  color: var(--custom-primary) ;
+  color: var(--custom-primary) !important;
 }
 
 .primary, .badge-primary, .btn-primary, .text-bg-primary {
-  background-color: var(--custom-primary) ;
+  background-color: var(--custom-primary) !important;
   border-color: var(--custom-secondary);
 }
 
@@ -142,14 +142,14 @@ blockquote {
 }
 
 .choices__inner.bg-secondary, .choices__list .choices__item.bg-secondary {
-  background: transparent ;
+  background: transparent !important;
 }
 
 aside .btn-secondary {
   --secondary: var(--custom-secondary);
 }
 aside .btn-secondary:not(:hover) {
-  background-color: transparent ;
+  background-color: transparent !important;
 }
 
 aside .btn-danger {
@@ -158,17 +158,17 @@ aside .btn-danger {
 }
 
 div[id^=comment-], article[id^=comment-] {
-  border-left-color: var(--custom-comment-left-border) ;
-  border-top-color: transparent ;
+  border-left-color: var(--custom-comment-left-border) !important;
+  border-top-color: transparent !important;
   background-color: var(--custom-main-bg-color);
 }
 
 ul.comments.border-top {
-  border-left-color: var(--custom-comment-left-border) ;
-  border-top-color: transparent ;
+  border-left-color: var(--custom-comment-left-border) !important;
+  border-top-color: transparent !important;
 }
 .person-details ul.comments {
-  border-left-color: transparent ;
+  border-left-color: transparent !important;
 }
 
 #community_table {
@@ -230,7 +230,7 @@ a:not(.btn):not(:disabled):hover {
   color: var(--custom-primary-light);
 }
 a:not(.btn):not(:disabled):hover.text-primary {
-  color: var(--custom-primary-light) ;
+  color: var(--custom-primary-light) !important;
 }
 
 .btn-secondary:not(:hover) {
@@ -238,12 +238,12 @@ a:not(.btn):not(:disabled):hover.text-primary {
   border-color: var(--secondary-border-color);
 }
 .btn-secondary:not(:disabled):hover {
-  background-color: var(--custom-secondary-light) ;
+  background-color: var(--custom-secondary-light) !important;
   border-color: var(--custom-secondary-light);
 }
 
 .primary:not(:disabled), .badge-primary:not(:disabled), .btn-primary:not(:disabled), .text-bg-primary:not(:disabled) {
-  background-color: var(--custom-primary-dark) ;
+  background-color: var(--custom-primary-dark) !important;
   border-color: var(--custom-secondary);
 }
 
