@@ -28,7 +28,7 @@
 }
 .btn-outline-secondary:not(:hover), .comment-form:not(.post-comment-container) .btn-secondary:not(:hover):nth-child(4), .comment-form .btn-secondary:not(:hover):nth-child(3), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(2), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(3), aside .btn-secondary:not(:hover) {
   border: 2px solid;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   border-color: var(--custom-secondary);;
 }
 .btn-outline-secondary:not(:disabled):hover, .comment-form:not(.post-comment-container) .btn-secondary:not(:disabled):hover:nth-child(4), .comment-form .btn-secondary:not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(3), aside .btn-secondary:not(:disabled):hover {
@@ -165,7 +165,9 @@ aside .btn-danger {
 
 div[id^=comment-], article[id^=comment-] {
   border-left-color: var(--custom-comment-left-border) !important;
-  border-top-color: transparent !important;
+  border-top-color: transparent;
+  border: 2px solid;
+  border-color: var(--primary-border-color);
   background-color: var(--custom-main-bg-color);
 }
 
