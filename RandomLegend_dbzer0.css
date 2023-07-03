@@ -57,9 +57,6 @@
   background-color: var(--custom-main-bg-color);
   margin-top: 0.5rem !important;
   margin-bottom: 0.5rem !important;
-  border: 2px solid;
-  border-radius: 1rem;
-  border-color: var(--primary-border-color);
 }
 
 .mb-4, .post article[id^=comment-].py-2 {
