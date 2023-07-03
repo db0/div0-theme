@@ -72,6 +72,8 @@
 .p-2, .container-lg .row .col-12.col-lg-6.offset-lg-3.mb-4:first-child, .container-lg .row .post article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, .post .container-lg .row article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, main.col-12.col-md-8.col-lg-9.mb-3 > div:not([class]):last-child, div.col-12.col-md-8.mb-3 > div:not([class]):last-child {
   padding: 0.5rem !important;
   background-color: var(--custom-main-bg-color);
+  border-style: 1px solid;
+  border-color: transparent;
 }
 
 .pt-2, .modlog, .home-instances {
