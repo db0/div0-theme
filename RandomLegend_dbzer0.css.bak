@@ -42,27 +42,17 @@
 .ml-2, .comments .comment.ml-1 {
   margin-left: 0.5rem !important;
   background-color: var(--custom-main-bg-color);
-  border: 2px solid;
-  border-radius: 1rem;
-  border-color: var(--primary-border-color);
-
 }
 
 .ms-3, ul.comments.border-top.ms-1 {
   background-color: var(--custom-main-bg-color);
   margin-left: 1rem !important;
-  border: 2px solid;
-  border-radius: 1rem;
-  border-color: var(--primary-border-color);
 }
 
 .my-2, .comments .comment.ml-1 div[id^=comment-] {
   background-color: var(--custom-main-bg-color);
   margin-top: 0.5rem !important;
   margin-bottom: 0.5rem !important;
-  border: 2px solid;
-  border-radius: 1rem;
-  border-color: var(--primary-border-color);
 }
 
 .mb-4, .post article[id^=comment-].py-2 {
