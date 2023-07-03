@@ -47,8 +47,6 @@
 .ms-3, ul.comments.border-top.ms-1 {
   background-color: var(--custom-main-bg-color);
   margin-left: 1rem !important;
-  border-style: 2px solid;
-  border-color: var(--primary-border-color);
 }
 
 .my-2, .comments .comment.ml-1 div[id^=comment-] {
@@ -167,7 +165,7 @@ div[id^=comment-], article[id^=comment-] {
 
 ul.comments.border-top {
   border-left-color: var(--custom-comment-left-border) !important;
-  border-color: var(--primary-border-color);
+  border-top-color: transparent !important;
 }
 .person-details ul.comments {
   border-left-color: transparent !important;
