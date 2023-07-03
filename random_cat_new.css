@@ -80,7 +80,7 @@
 }
 
 body {
-  background-image: url("https://raw.githubusercontent.com/db0/div0-theme/main/background.webp");
+  background-image: var(--custom-main-bg-color);
   background-attachment: fixed;
   background-position: center;
 }
@@ -118,7 +118,7 @@ blockquote {
 
 .btn-group.btn-group-toggle .btn-outline-secondary:not(.active), .btn-group.btn-group-toggle .comment-form:not(.post-comment-container) .btn-secondary:not(.active):nth-child(4), .comment-form:not(.post-comment-container) .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(4), .btn-group.btn-group-toggle .comment-form .btn-secondary:not(.active):nth-child(3), .comment-form .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(3), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):nth-child(2), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(2), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):nth-child(3), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(3), .btn-group.btn-group-toggle aside .btn-secondary:not(.active), aside .btn-group.btn-group-toggle .btn-secondary:not(.active) {
   color: var(--custom-tabs-text-color);
-  border-color: var(--primary-border-color);
+  border-color: transparent;
 }
 .btn-group.btn-group-toggle .btn-outline-secondary:not(.active):not(:disabled):hover, .btn-group.btn-group-toggle .comment-form:not(.post-comment-container) .btn-secondary:not(.active):not(:disabled):hover:nth-child(4), .comment-form:not(.post-comment-container) .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(4), .btn-group.btn-group-toggle .comment-form .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), .comment-form .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(2), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), .btn-group.btn-group-toggle aside .btn-secondary:not(.active):not(:disabled):hover, aside .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover {
   color: white;
