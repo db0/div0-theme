@@ -1,4 +1,4 @@
-/* Modern UI Theme 1.3 */
+/* Modern UI Theme 1.3 modified by RandomLegend for lemmy.dbzer0.com*/
 
 @import url("darkly.css");
 
@@ -24,13 +24,16 @@
 }
 
 .btn-outline-secondary, .comment-form:not(.post-comment-container) .btn-secondary:nth-child(4), .comment-form .btn-secondary:nth-child(3), form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3), aside .btn-secondary {
-  border-color: border-color: var(--custom-secondary);;
+  border-style: 1px solid;
+  border-color: var(--custom-secondary);;
 }
 .btn-outline-secondary:not(:hover), .comment-form:not(.post-comment-container) .btn-secondary:not(:hover):nth-child(4), .comment-form .btn-secondary:not(:hover):nth-child(3), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(2), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(3), aside .btn-secondary:not(:hover) {
-  color: border-color: var(--custom-secondary);;
+  border-style: 1px solid;
+  border-color: var(--custom-secondary);;
 }
 .btn-outline-secondary:not(:disabled):hover, .comment-form:not(.post-comment-container) .btn-secondary:not(:disabled):hover:nth-child(4), .comment-form .btn-secondary:not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(3), aside .btn-secondary:not(:disabled):hover {
   background-color: var(--custom-main-bg-color);
+  border-style: 1px solid;
   border-color: var(--primary-border-color);
 }
 
@@ -79,7 +82,7 @@
 }
 
 body {
-  background-image: url("https://raw.githubusercontent.com/db0/div0-theme/main/background.webp");
+  background-image: var(--custom-main-bg-color);
   background-attachment: fixed;
   background-position: center;
 }
@@ -204,15 +207,15 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
 }
 
 :root {
-  --custom-primary: #9F272C;
-  --custom-primary-light: #536B8E;
-  --custom-primary-dark: #9F272C;
+  --custom-primary: #ea91a7;
+  --custom-primary-light: #82c4eb;
+  --custom-primary-dark: #ea91a7;
   --custom-secondary-light: #a7c5d4;
   --custom-secondary: #444444; /* Border around switches, and community table */
-  --custom-tabs-color: #F15B2D;
+  --custom-tabs-color: #c0a36e;
   --custom-tabs-text-color: #dee2e6;
-  --custom-bg-color: #0F0E10;
-  --custom-main-bg-color: #0F0E10;
+  --custom-bg-color: #090617;
+  --custom-main-bg-color: #090617;
   --custom-comment-left-border: rgba(255, 255, 255, 0.1);
   --bs-warning-text-emphasis: #fff;
   --bs-warning-bg-subtle: #44423f;
@@ -222,9 +225,9 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
   --bs-info-border-subtle: #2f3235;
   --bs-body-bg: var(--custom-main-bg-color);
   --bs-code-color: #ff9fcf;
-  --primary-border-color: #F15B2D;
+  --primary-border-color: #c0a36e;
   --secondary-border-color: #444444;
-}
+
 
 a:not(.btn):not(:disabled):hover {
   color: var(--custom-primary-light);

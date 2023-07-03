@@ -77,7 +77,7 @@
 }
 
 body {
-  background-image: var(--custom-main-bg-color);
+  background-image: url("https://raw.githubusercontent.com/db0/div0-theme/main/background.webp");
   background-attachment: fixed;
   background-position: center;
 }
@@ -222,7 +222,7 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
   --bs-code-color: #ff9fcf;
   --primary-border-color: #c0a36e;
   --secondary-border-color: #444444;
-}
+
 
 a:not(.btn):not(:disabled):hover {
   color: var(--custom-primary-light);
