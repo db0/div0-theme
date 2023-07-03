@@ -19,12 +19,13 @@
   background-color: var(--custom-main-bg-color);
   background-clip: border-box;
   border: 2px solid;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   border-color: var(--primary-border-color);
 }
 
 .btn-outline-secondary, .comment-form:not(.post-comment-container) .btn-secondary:nth-child(4), .comment-form .btn-secondary:nth-child(3), form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3), aside .btn-secondary {
-  border-color: border-color: var(--custom-secondary);;
+  background-color: var(--custom-main-bg-color);
+  border-color: var(--custom-secondary);;
 }
 .btn-outline-secondary:not(:hover), .comment-form:not(.post-comment-container) .btn-secondary:not(:hover):nth-child(4), .comment-form .btn-secondary:not(:hover):nth-child(3), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(2), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(3), aside .btn-secondary:not(:hover) {
   border: 2px solid;
@@ -42,28 +43,28 @@
 }
 
 .ml-2, .comments .comment.ml-1 {
-  margin-left: 0.5rem !important;
+  margin-left: 0.75rem !important;
   background-color: var(--custom-main-bg-color);
   border: 2px solid;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   border-color: var(--primary-border-color);
 
 }
 
 .ms-3, ul.comments.border-top.ms-1 {
   background-color: var(--custom-main-bg-color);
-  margin-left: 1rem !important;
+  margin-left: 0.75rem !important;
 }
 
 .my-2, .comments .comment.ml-1 div[id^=comment-] {
   background-color: var(--custom-main-bg-color);
-  margin-top: 0.5rem !important;
-  margin-bottom: 0.5rem !important;
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.75rem !important;
 }
 
 .mb-4, .post article[id^=comment-].py-2 {
   background-color: var(--custom-main-bg-color);
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 0.75rem !important;
 }
 
 .py-0, .post article[id^=comment-].py-2, .comments .comment.ml-1 div[id^=comment-] {
@@ -73,14 +74,14 @@
 }
 
 .p-2, .container-lg .row .col-12.col-lg-6.offset-lg-3.mb-4:first-child, .container-lg .row .post article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, .post .container-lg .row article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, main.col-12.col-md-8.col-lg-9.mb-3 > div:not([class]):last-child, div.col-12.col-md-8.mb-3 > div:not([class]):last-child {
-  padding: 0.5rem !important;
+  padding: 0.75rem !important;
   background-color: var(--custom-main-bg-color);
   border-style: 1px solid;
   border-color: transparent;
 }
 
 .pt-2, .modlog, .home-instances {
-  padding-top: 0.5rem !important;
+  padding-top: 0.75rem !important;
   background-color: var(--custom-main-bg-color);
 }
 
@@ -94,7 +95,7 @@ nav {
   padding-top: 3px;
   background-color: var(--custom-main-bg-color);
   border: 2px solid;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   border-color: var(--primary-border-color);
   box-shadow: 10px 10px;
 }
@@ -182,7 +183,7 @@ ul.comments.border-top {
 #community_table {
   display: table;
   border-color: var(--secondary-border-color);
-  border-radius: 1rem;
+  border-radius: 0.75rem;
 }
 
 form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3) {
