@@ -167,7 +167,7 @@ div[id^=comment-], article[id^=comment-] {
 
 ul.comments.border-top {
   border-left-color: var(--custom-comment-left-border) !important;
-  border-top-color: transparent !important;
+  border-color: var(--primary-border-color);
 }
 .person-details ul.comments {
   border-left-color: transparent !important;
