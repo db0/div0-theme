@@ -6,8 +6,9 @@
 .community .post-listings,
 .col-12.col-md-8:not(.mb-3),
 .person-details {
-  background-color: var(--custom-main-bg-color);
+  background-color: transparent;
   border-style: 2px solid;
+  border-radius: 1rem;
   border-color: var(--primary-border-color);
 }
 .col-12.col-md-8.mb-3 > .post-listing:first-child,
