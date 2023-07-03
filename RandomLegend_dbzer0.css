@@ -7,6 +7,8 @@
 .col-12.col-md-8:not(.mb-3),
 .person-details {
   background-color: var(--custom-main-bg-color);
+  border-style: 2px solid;
+  border-color: var(--primary-border-color);
 }
 .col-12.col-md-8.mb-3 > .post-listing:first-child,
 .modlog,
