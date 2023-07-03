@@ -5,7 +5,9 @@
 .card, .container-lg .row .col-12.col-lg-6.offset-lg-3.mb-4:first-child, .container-lg .row .post article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, .post .container-lg .row article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, #community_table, .search, main.col-12.col-md-8.col-lg-9.mb-3 > div:not([class]):last-child, div.col-12.col-md-8.mb-3 > div:not([class]):last-child, .post .post-listing:first-child, main[role=main],
 .community .post-listings,
 .col-12.col-md-8:not(.mb-3),
-.person-details,
+.person-details {
+  background-color: var(--custom-main-bg-color);
+}
 .col-12.col-md-8.mb-3 > .post-listing:first-child,
 .modlog,
 .home-instances,
