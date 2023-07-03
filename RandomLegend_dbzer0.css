@@ -23,13 +23,40 @@
   border-color: var(--primary-border-color);
 }
 
-.btn-outline-secondary, .comment-form:not(.post-comment-container) .btn-secondary:nth-child(4), .comment-form .btn-secondary:nth-child(3), form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3), aside .btn-secondary {
+.btn-outline-secondary, .comment-form:not(.post-comment-container) .btn-secondary:nth-child(4),
+.comment-form {
+  background-color: var(--custom-main-bg-color);
+  background-clip: border-box;
+  border: 2px solid;
+  border-radius: 1rem;
+  border-color: var(--primary-border-color);
+}
+
+.btn-secondary:nth-child(3), form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3), aside .btn-secondary {
   border-color: border-color: var(--custom-secondary);;
 }
-.btn-outline-secondary:not(:hover), .comment-form:not(.post-comment-container) .btn-secondary:not(:hover):nth-child(4), .comment-form .btn-secondary:not(:hover):nth-child(3), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(2), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(3), aside .btn-secondary:not(:hover) {
+.btn-outline-secondary:not(:hover), .comment-form:not(.post-comment-container) .btn-secondary:not(:hover):nth-child(4),
+.comment-form {
+  background-color: var(--custom-main-bg-color);
+  background-clip: border-box;
+  border: 2px solid;
+  border-radius: 1rem;
+  border-color: var(--primary-border-color);
+}
+
+.btn-secondary:not(:hover):nth-child(3), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(2), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(3), aside .btn-secondary:not(:hover) {
   color: border-color: var(--custom-secondary);;
 }
-.btn-outline-secondary:not(:disabled):hover, .comment-form:not(.post-comment-container) .btn-secondary:not(:disabled):hover:nth-child(4), .comment-form .btn-secondary:not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(3), aside .btn-secondary:not(:disabled):hover {
+.btn-outline-secondary:not(:disabled):hover, .comment-form:not(.post-comment-container) .btn-secondary:not(:disabled):hover:nth-child(4),
+.comment-form {
+  background-color: var(--custom-main-bg-color);
+  background-clip: border-box;
+  border: 2px solid;
+  border-radius: 1rem;
+  border-color: var(--primary-border-color);
+}
+
+.btn-secondary:not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(3), aside .btn-secondary:not(:disabled):hover {
   background-color: var(--custom-main-bg-color);
   border-color: var(--primary-border-color);
 }
