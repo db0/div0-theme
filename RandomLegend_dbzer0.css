@@ -79,7 +79,7 @@
 }
 
 body {
-  background-image: url(background.webp);
+  background-image: url("https://raw.githubusercontent.com/db0/div0-theme/main/background.webp");
   background-attachment: fixed;
   background-position: center;
 }
