@@ -6,7 +6,7 @@
 .community .post-listings,
 .col-12.col-md-8:not(.mb-3),
 .person-details {
-  background-color: transparent;
+  background-color: var(--custom-main-bg-color);
   border-style: 2px solid;
   border-radius: 1rem;
   border-color: var(--primary-border-color);
