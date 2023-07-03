@@ -79,7 +79,7 @@
 }
 
 body {
-  background-image: url("/background.webp");
+  background-image: url("background.webp");
   background-attachment: fixed;
   background-position: center;
 }
