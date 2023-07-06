@@ -79,9 +79,12 @@
 }
 
 body {
-  background-image: url("https://raw.githubusercontent.com/db0/div0-theme/main/background.webp");
+  background-image: url("https://lemmy.dbzer0.com/pictrs/image/f504ebc8-a015-4b7a-907d-85eabdfc260a.webp");
   background-attachment: fixed;
   background-position: center;
+  height: 100vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 
 nav {
