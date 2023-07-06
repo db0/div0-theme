@@ -79,7 +79,7 @@
 }
 
 body {
-  background-image: url("https://raw.githubusercontent.com/db0/div0-theme/main/background.webp");
+  background-image: url("https://lemmy.dbzer0.com/pictrs/image/f504ebc8-a015-4b7a-907d-85eabdfc260a.webp");
   background-attachment: fixed;
   background-position: center;
 }
@@ -90,7 +90,6 @@ nav {
   border: 2px solid;
   border-radius: 1rem;
   border-color: var(--primary-border-color);
-  box-shadow: 10px 10px;
 }
 
 main {
