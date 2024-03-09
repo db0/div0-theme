@@ -23,6 +23,7 @@ jobs:
           ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/random_cat_new.css ${EXTRA_THEMES_PATH}/"
           ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/RandomLegend_dbzer0.css ${EXTRA_THEMES_PATH}/"
           ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/background.webp ${EXTRA_THEMES_PATH}/"
+          ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/RandomLegend_dbzer0_v2.css ${EXTRA_THEMES_PATH}/"
         shell: bash
         env:
           SSH_PRIVATE_KEY: ${{secrets.CD_SSH_PRIVKEY}}
