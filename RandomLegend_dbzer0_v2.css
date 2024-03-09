@@ -1,0 +1,266 @@
+/* Modern UI Theme 1.3.3 */
+
+@import url("darkly.css");
+
+.card, .container-lg .row .col-12.col-lg-6.offset-lg-3.mb-4:first-child, .container-lg .row .post article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, .post .container-lg .row article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, #community_table, main.col-12.col-md-8.col-lg-9.mb-3 > div:not([class]):last-child, div.col-12.col-md-8.mb-3 > div:not([class]):last-child, .post .post-listing:first-child, main[role=main],
+.community .post-listings,
+.col-12.col-md-8:not(.mb-3),
+.person-details,
+.col-12.col-md-8.mb-3 > .post-listing:first-child,
+.modlog,
+.home-instances,
+.legal,
+.communities,
+.login,
+.inbox,
+.search,
+.home-signup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color: var(--custom-main-bg-color);
+  background-clip: border-box;
+  border: 1px solid transparent !important;
+  border-radius: 0.5rem;
+}
+
+.btn-outline-secondary, .comment-form:not(.post-comment-container) .btn-secondary:nth-child(4), .comment-form .btn-secondary:nth-child(3), form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3), aside .btn-secondary {
+  border-color: var(--secondary);
+}
+.btn-outline-secondary:not(:hover), .comment-form:not(.post-comment-container) .btn-secondary:not(:hover):nth-child(4), .comment-form .btn-secondary:not(:hover):nth-child(3), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(2), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(3), aside .btn-secondary:not(:hover) {
+  color: var(--secondary);
+}
+.btn-outline-secondary:not(:disabled):hover, .comment-form:not(.post-comment-container) .btn-secondary:not(:disabled):hover:nth-child(4), .comment-form .btn-secondary:not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(3), aside .btn-secondary:not(:disabled):hover {
+  background-color: var(--secondary);
+}
+
+.mt-0, .post .post-listing:first-child {
+  margin-top: 0 !important;
+}
+
+.ml-2, .comments .comment.ml-1 {
+  margin-left: 0.5rem !important;
+}
+
+.ms-3, ul.comments.border-top.ms-1 {
+  margin-left: 1rem !important;
+}
+
+.my-2, .comments .comment.ml-1 div[id^=comment-] {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.mb-4, .post article[id^=comment-].py-2 {
+  margin-bottom: 1.5rem !important;
+}
+
+.py-0, .post article[id^=comment-].py-2, .comments .comment.ml-1 div[id^=comment-] {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.p-2, .container-lg .row .col-12.col-lg-6.offset-lg-3.mb-4:first-child, .container-lg .row .post article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, .post .container-lg .row article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, main.col-12.col-md-8.col-lg-9.mb-3 > div:not([class]):last-child, div.col-12.col-md-8.mb-3 > div:not([class]):last-child {
+  padding: 0.5rem !important;
+}
+
+.pt-2, .modlog,
+.home-instances,
+.login,
+.person-profile .person-listing,
+.communities,
+.search,
+.inbox,
+.legal,
+.home-signup {
+  padding-top: 0.5rem !important;
+}
+
+body {
+  background-color: var(--custom-bg-color);
+}
+
+nav {
+  background-color: var(--custom-main-bg-color);
+}
+
+main {
+  padding-top: 10px;
+}
+
+a {
+  color: var(--custom-primary);
+}
+
+blockquote {
+  border-left-width: 4px;
+  padding: 0.1em 8px;
+}
+
+.text-primary {
+  color: var(--custom-primary) !important;
+}
+
+.primary, .badge-primary, .btn-primary, .text-bg-primary {
+  background-color: var(--custom-primary) !important;
+  border-color: var(--custom-primary);
+}
+
+.btn-group.btn-group-toggle .btn-outline-secondary:not(.active), .btn-group.btn-group-toggle .comment-form:not(.post-comment-container) .btn-secondary:not(.active):nth-child(4), .comment-form:not(.post-comment-container) .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(4), .btn-group.btn-group-toggle .comment-form .btn-secondary:not(.active):nth-child(3), .comment-form .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(3), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):nth-child(2), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(2), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):nth-child(3), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):nth-child(3), .btn-group.btn-group-toggle aside .btn-secondary:not(.active), aside .btn-group.btn-group-toggle .btn-secondary:not(.active) {
+  color: var(--custom-tabs-text-color);
+  border-color: var(--custom-tabs-color);
+}
+.btn-group.btn-group-toggle .btn-outline-secondary:not(.active):not(:disabled):hover, .btn-group.btn-group-toggle .comment-form:not(.post-comment-container) .btn-secondary:not(.active):not(:disabled):hover:nth-child(4), .comment-form:not(.post-comment-container) .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(4), .btn-group.btn-group-toggle .comment-form .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), .comment-form .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(2), .btn-group.btn-group-toggle form[id^=comment-form-] .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover:nth-child(3), .btn-group.btn-group-toggle aside .btn-secondary:not(.active):not(:disabled):hover, aside .btn-group.btn-group-toggle .btn-secondary:not(.active):not(:disabled):hover {
+  color: white;
+  background-color: var(--custom-tabs-color);
+}
+
+.btn-group.btn-group-toggle .btn-outline-secondary.active, .btn-group.btn-group-toggle .comment-form:not(.post-comment-container) .active.btn-secondary:nth-child(4), .comment-form:not(.post-comment-container) .btn-group.btn-group-toggle .active.btn-secondary:nth-child(4), .btn-group.btn-group-toggle .comment-form .active.btn-secondary:nth-child(3), .comment-form .btn-group.btn-group-toggle .active.btn-secondary:nth-child(3), .btn-group.btn-group-toggle form[id^=comment-form-] .active.btn-secondary:nth-child(2), form[id^=comment-form-] .btn-group.btn-group-toggle .active.btn-secondary:nth-child(2), .btn-group.btn-group-toggle form[id^=comment-form-] .active.btn-secondary:nth-child(3), form[id^=comment-form-] .btn-group.btn-group-toggle .active.btn-secondary:nth-child(3), .btn-group.btn-group-toggle aside .active.btn-secondary, aside .btn-group.btn-group-toggle .active.btn-secondary {
+  background-color: var(--custom-tabs-color);
+  border-color: var(--custom-tabs-color);
+}
+
+.post-listing {
+  padding-top: 12px;
+}
+
+.form-control:focus,
+.custom-select:focus,
+.form-select:focus {
+  box-shadow: none;
+}
+
+.choices__inner.bg-secondary, .choices__list .choices__item.bg-secondary {
+  background: transparent !important;
+}
+
+aside .btn-secondary {
+  --secondary: var(--custom-secondary);
+}
+aside .btn-secondary:not(:hover) {
+  background-color: transparent !important;
+}
+
+aside .btn-danger {
+  --bs-btn-bg: transparent;
+  --bs-btn-color: var(--bs-btn-border-color);
+}
+
+div[id^=comment-], article[id^=comment-] {
+  border-left-color: var(--custom-comment-left-border) !important;
+  border-top-color: transparent !important;
+}
+
+ul.comments.border-top {
+  border-left-color: var(--custom-comment-left-border) !important;
+  border-top-color: transparent !important;
+}
+.person-details ul.comments {
+  border-left-color: transparent !important;
+}
+
+#community_table {
+  display: table;
+}
+
+form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3) {
+  --secondary: var(--custom-secondary);
+}
+form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=comment-form-] .btn-secondary:nth-child(3):not(:hover) {
+  background-color: transparent !important;
+}
+
+.comment-form .btn-secondary:nth-child(3) {
+  --secondary: var(--custom-secondary);
+}
+.comment-form .btn-secondary:nth-child(3):not(:hover) {
+  background-color: transparent !important;
+}
+.comment-form:not(.post-comment-container) .btn-secondary:nth-child(4) {
+  --secondary: var(--custom-secondary);
+}
+.comment-form:not(.post-comment-container) .btn-secondary:nth-child(4):not(:hover) {
+  background-color: transparent !important;
+}
+
+.card-header {
+  background-color: transparent;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+:root {
+  --custom-primary: #9F272C;
+  --custom-primary-light: #536B8E;
+  --custom-primary-dark: #a7c5d4;
+  --custom-secondary-light: #a7c5d4;
+  --custom-secondary: #444444; /* Border around switches, and community table */
+  --custom-tabs-color: #F15B2D;
+  --custom-tabs-text-color: #dee2e6;
+  --custom-bg-color: #0F0E10;
+  --custom-main-bg-color: #0F0E10;
+  --custom-comment-left-border: rgba(255, 255, 255, 0.1);
+  --bs-warning-text-emphasis: #fff;
+  --bs-warning-bg-subtle: #44423f;
+  --bs-warning-border-subtle: #44423f;
+  --bs-info-text-emphasis: #fff;
+  --bs-info-bg-subtle: #2f3235;
+  --bs-info-border-subtle: #2f3235;
+  --bs-body-bg: var(--custom-main-bg-color);
+  --bs-code-color: #ff9fcf;
+  --primary-border-color: #F15B2D;
+  --secondary-border-color: #444444;
+}
+
+a:not(.btn):not(:disabled):hover {
+  color: var(--custom-primary-light);
+}
+a:not(.btn):not(:disabled):hover.text-primary {
+  color: var(--custom-primary-light) !important;
+}
+
+.btn-secondary, .btn-outline-secondary {
+  --bs-btn-color: white;
+  --bs-btn-hover-color: white;
+  --bs-btn-active-color: white;
+  --bs-btn-disabled-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-bg-secondary {
+  background-color: var(--custom-tabs-color) !important;
+  color: white !important;
+}
+
+.btn-secondary:not(:hover) {
+  background-color: var(--custom-tabs-color);
+  border-color: var(--custom-tabs-color);
+}
+.btn-secondary:not(:disabled):hover {
+  background-color: var(--custom-secondary-light) !important;
+  border-color: var(--custom-secondary-light);
+}
+
+.primary:not(:disabled), .badge-primary:not(:disabled), .btn-primary:not(:disabled), .text-bg-primary:not(:disabled) {
+  background-color: var(--custom-primary-dark) !important;
+  border-color: var(--custom-primary-dark);
+}
+
+.form-control {
+  background-color: var(--custom-main-bg-color);
+  border-color: #403e3e;
+}
+.form-control:focus {
+  background-color: var(--custom-main-bg-color);
+}
+
+.table {
+  --bs-table-color: #fff;
+  --bs-table-hover-color: #fff;
+}
+
+code.hljs {
+  color: #99a0ac;
+  background: #171717;
+  filter: brightness(1.5) saturate(0.8);
+}
