@@ -87,7 +87,11 @@ body {
 }
 
 nav {
+  padding-top: 3px;
   background-color: var(--custom-main-bg-color);
+  border: 2px solid;
+  border-radius: 1rem;
+  border-color: var(--primary-border-color);
 }
 
 main {
