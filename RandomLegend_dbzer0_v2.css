@@ -190,7 +190,7 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
   padding-bottom: 0;
 }
 
-:root {
+:root, div#app {
   --custom-primary: #9F272C;
   --custom-primary-light: #536B8E;
   --custom-primary-dark: #a7c5d4;
