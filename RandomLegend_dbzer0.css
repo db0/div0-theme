@@ -206,9 +206,9 @@ form[id^=comment-form-] .btn-secondary:nth-child(2):not(:hover), form[id^=commen
 }
 
 :root {
-  --custom-primary: #9F272C;
+  --custom-primary: #a7c5d4;
   --custom-primary-light: #536B8E;
-  --custom-primary-dark: #9F272C;
+  --custom-primary-dark: #a7c5d4;
   --custom-secondary-light: #a7c5d4;
   --custom-secondary: #444444; /* Border around switches, and community table */
   --custom-tabs-color: #F15B2D;
@@ -255,4 +255,15 @@ a:not(.btn):not(:disabled):hover.text-primary {
 }
 .form-control:focus {
   background-color: var(--custom-main-bg-color);
+}
+
+.table {
+  --bs-table-color: #fff;
+  --bs-table-hover-color: #fff;
+}
+
+code.hljs {
+  color: #99a0ac;
+  background: #171717;
+  filter: brightness(1.5) saturate(0.8);
 }
