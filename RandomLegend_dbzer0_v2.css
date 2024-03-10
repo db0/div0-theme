@@ -26,43 +26,53 @@
 }
 
 .btn-outline-secondary, .comment-form:not(.post-comment-container) .btn-secondary:nth-child(4), .comment-form .btn-secondary:nth-child(3), form[id^=comment-form-] .btn-secondary:nth-child(2), form[id^=comment-form-] .btn-secondary:nth-child(3), aside .btn-secondary {
-  border-color: var(--secondary);
+  border-color: border-color: var(--custom-secondary);;
 }
 .btn-outline-secondary:not(:hover), .comment-form:not(.post-comment-container) .btn-secondary:not(:hover):nth-child(4), .comment-form .btn-secondary:not(:hover):nth-child(3), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(2), form[id^=comment-form-] .btn-secondary:not(:hover):nth-child(3), aside .btn-secondary:not(:hover) {
-  color: var(--secondary);
+  color: border-color: var(--custom-secondary);;
 }
 .btn-outline-secondary:not(:disabled):hover, .comment-form:not(.post-comment-container) .btn-secondary:not(:disabled):hover:nth-child(4), .comment-form .btn-secondary:not(:disabled):hover:nth-child(3), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(2), form[id^=comment-form-] .btn-secondary:not(:disabled):hover:nth-child(3), aside .btn-secondary:not(:disabled):hover {
-  background-color: var(--secondary);
+  background-color: var(--custom-main-bg-color);
+  border-color: var(--primary-border-color);
 }
 
 .mt-0, .post .post-listing:first-child {
+  background-color: var(--custom-main-bg-color);
   margin-top: 0 !important;
 }
 
 .ml-2, .comments .comment.ml-1 {
   margin-left: 0.5rem !important;
+  background-color: var(--custom-main-bg-color);
 }
 
 .ms-3, ul.comments.border-top.ms-1 {
+  background-color: var(--custom-main-bg-color);
   margin-left: 1rem !important;
 }
 
 .my-2, .comments .comment.ml-1 div[id^=comment-] {
+  background-color: var(--custom-main-bg-color);
   margin-top: 0.5rem !important;
   margin-bottom: 0.5rem !important;
 }
 
 .mb-4, .post article[id^=comment-].py-2 {
+  background-color: var(--custom-main-bg-color);
   margin-bottom: 1.5rem !important;
 }
 
 .py-0, .post article[id^=comment-].py-2, .comments .comment.ml-1 div[id^=comment-] {
+  background-color: var(--custom-main-bg-color);
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 
 .p-2, .container-lg .row .col-12.col-lg-6.offset-lg-3.mb-4:first-child, .container-lg .row .post article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, .post .container-lg .row article.col-12.col-lg-6.offset-lg-3[id^=comment-].py-2:first-child, main.col-12.col-md-8.col-lg-9.mb-3 > div:not([class]):last-child, div.col-12.col-md-8.mb-3 > div:not([class]):last-child {
   padding: 0.5rem !important;
+  background-color: var(--custom-main-bg-color);
+  border-style: 1px solid;
+  border-color: transparent;
 }
 
 .pt-2, .modlog,
@@ -75,6 +85,7 @@
 .legal,
 .home-signup {
   padding-top: 0.5rem !important;
+  background-color: var(--custom-main-bg-color);
 }
 
 body {
