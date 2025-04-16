@@ -22,6 +22,8 @@ jobs:
           ssh -i ~/.ssh/private.key cduser@${WEBSERVER} 'cd div0-theme && git fetch && git checkout dev && git reset origin/dev --hard && git log -n 1'          
           ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/random_cat_new.css ${EXTRA_THEMES_PATH}/"
           ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/RandomLegend_dbzer0.css ${EXTRA_THEMES_PATH}/"
+          ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/Rblind_dark.css ${EXTRA_THEMES_PATH}/"
+          ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/Rblind_light.css ${EXTRA_THEMES_PATH}/"
           ssh -i ~/.ssh/private.key cduser@${WEBSERVER} "cp div0-theme/background.webp ${EXTRA_THEMES_PATH}/"
         shell: bash
         env:
